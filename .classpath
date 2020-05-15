@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jetty"/>
+	<classpathentry kind="lib" path="commons-math3-3.3.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/jackson-all-1.9.11.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/jackson-annotations-2.4.0.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/jackson-core-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/jackson-databind-2.4.1.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/spring-aop-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/spring-beans-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/spring-context-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/spring-jdbc-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/spring-tx-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/spring-web-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/spring-webmvc-4.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/WebSphere Application Server V8.5 Liberty Profile/shared/config/lib/global/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/SQLLIB/java/db2jcc_license_cu.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/IBM/SQLLIB/java/db2jcc4.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,22 @@
+<server>
+  <variable name='cloud.services.SQLDB.name' value='SQLDB'/>
+  <variable name='cloud.services.SQLDB.label' value='sqldb'/>
+  <variable name='cloud.services.SQLDB.plan' value='sqldb_small'/>
+  <variable name='cloud.services.SQLDB.connection.port' value='50000'/>
+  <variable name='cloud.services.SQLDB.connection.db' value='I_516415'/>
+  <variable name='cloud.services.SQLDB.connection.username' value='gkaodjbf'/>
+  <variable name='cloud.services.SQLDB.connection.host' value='23.246.235.89'/>
+  <variable name='cloud.services.SQLDB.connection.hostname' value='23.246.235.89'/>
+  <variable name='cloud.services.SQLDB.connection.jdbcurl' value='jdbc:db2://23.246.235.89:50000/I_516415'/>
+  <variable name='cloud.services.SQLDB.connection.uri' value='db2://gkaodjbf:jocqq6hnp2vv@23.246.235.89:50000/I_516415'/>
+  <variable name='cloud.services.SQLDB.connection.password' value='jocqq6hnp2vv'/>
+  <variable name='port' value='61824'/>
+  <variable name='home' value='/home/vcap/app'/>
+  <variable name='vcap_app_port' value='61824'/>
+  <variable name='application_name' value='bbalothia'/>
+  <variable name='application_version' value='08d13ce4-9426-44c2-8269-fc10a6023d18'/>
+  <variable name='host' value='0.0.0.0'/>
+  <variable name='application_uris' value='[&quot;bbalothia.mybluemix.net&quot;]'/>
+  <variable name='start' value='2014-11-06 05:05:53 +0000'/>
+  <variable name='application.log.dir' value='../../../../../logs'/>
+</server>

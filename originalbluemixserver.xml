@@ -1,0 +1,35 @@
+<server description="new server">
+    <!-- Enable features -->
+    <featureManager>
+        <feature>jsf-2.0</feature>
+        <feature>jsp-2.2</feature>
+        <feature>servlet-3.0</feature>
+        <feature>ejbLite-3.1</feature>
+        <feature>cdi-1.0</feature>
+        <feature>jpa-2.0</feature>
+        <feature>jdbc-4.0</feature>
+        <feature>jndi-1.0</feature>
+        <feature>managedBeans-1.0</feature>
+        <feature>jaxrs-1.1</feature>
+        <feature>appstate-1.0</feature>
+        <feature>icap:managementConnector-1.0</feature>
+        <feature>cloudAutowiring-1.0</feature>
+    </featureManager>
+    <httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="${port}"/>
+    <appstate appName="myapp" markerPath="${home}/.liberty.state"/>
+    <application name="myapp" context-root="/" location="myapp" type="war"/>
+    <logging logDirectory="${application.log.dir}"/>
+    <include location="runtime-vars.xml"/>
+    <webContainer trustHostHeaderPort="true" extractHostHeaderPort="true"/>
+    <httpDispatcher enableWelcomePage="false"/>
+    <logging consoleLogLevel="INFO"/>
+    <applicationMonitor dropinsEnabled="false" updateTrigger="mbean"/>
+    <config updateTrigger="mbean"/>
+    <dataSource id='db2-SQLDB' jdbcDriverRef='db2-driver' jndiName='jdbc/SQLDB' statementCacheSize='30' transactional='true'>
+        <properties.db2.jcc id='db2-SQLDB-props' databaseName='${cloud.services.SQLDB.connection.db}' user='${cloud.services.SQLDB.connection.username}' password='${cloud.services.SQLDB.connection.password}' portNumber='${cloud.services.SQLDB.connection.port}' serverName='${cloud.services.SQLDB.connection.host}'/>
+    </dataSource>
+    <jdbcDriver id='db2-driver' libraryRef='db2-library'/>
+    <library id='db2-library'>
+        <fileset id='db2-fileset' dir='${server.config.dir}/lib' includes='db2jcc4.jar db2jcc_license_cu.jar'/>
+    </library>
+</server>

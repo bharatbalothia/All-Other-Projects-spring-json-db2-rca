@@ -1,0 +1,5 @@
+/home/vcap/app/resources/dojo
+
+/home/vcap/app/.liberty/usr/shared/resources/dojo/
+
+refer mvc resource directly from file system take dojo 
