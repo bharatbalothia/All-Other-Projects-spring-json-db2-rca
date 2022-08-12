@@ -2,14 +2,14 @@
   <variable name='cloud.services.SQLDB.name' value='SQLDB'/>
   <variable name='cloud.services.SQLDB.label' value='sqldb'/>
   <variable name='cloud.services.SQLDB.plan' value='sqldb_small'/>
-  <variable name='cloud.services.SQLDB.connection.port' value='50000'/>
-  <variable name='cloud.services.SQLDB.connection.db' value='I_516415'/>
-  <variable name='cloud.services.SQLDB.connection.username' value='gkaodjbf'/>
-  <variable name='cloud.services.SQLDB.connection.host' value='23.246.235.89'/>
-  <variable name='cloud.services.SQLDB.connection.hostname' value='23.246.235.89'/>
-  <variable name='cloud.services.SQLDB.connection.jdbcurl' value='jdbc:db2://23.246.235.89:50000/I_516415'/>
-  <variable name='cloud.services.SQLDB.connection.uri' value='db2://gkaodjbf:jocqq6hnp2vv@23.246.235.89:50000/I_516415'/>
-  <variable name='cloud.services.SQLDB.connection.password' value='jocqq6hnp2vv'/>
+  <variable name='cloud.services.SQLDB.connection.port' value=''/>
+  <variable name='cloud.services.SQLDB.connection.db' value=''/>
+  <variable name='cloud.services.SQLDB.connection.username' value=''/>
+  <variable name='cloud.services.SQLDB.connection.host' value=''/>
+  <variable name='cloud.services.SQLDB.connection.hostname' value=''/>
+  <variable name='cloud.services.SQLDB.connection.jdbcurl' value=''/>
+  <variable name='cloud.services.SQLDB.connection.uri' value=''/>
+  <variable name='cloud.services.SQLDB.connection.password' value=''/>
   <variable name='port' value='61824'/>
   <variable name='home' value='/home/vcap/app'/>
   <variable name='vcap_app_port' value='61824'/>
